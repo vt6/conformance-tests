@@ -112,6 +112,10 @@ for my $ord (0..255) {
   } elsif (is_high($char)) {
     say 'error 0 invalid UTF-8';
   } else {
-    say "ok (want \"$escaped\")";
+    if (is_bareword($char)) {
+      say "ok (want $char)";
+    } else {
+      say "ok (want \"$escaped\")";
+    }
   }
 }
