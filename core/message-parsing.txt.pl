@@ -7,6 +7,8 @@ use v5.20;
 # TODO: more test-cases
 
 say <<'EOF';
+# NOTE: See README.md in this directory for syntax explanation.
+
 # minimal examples
 test (want)
 ok   (want)
