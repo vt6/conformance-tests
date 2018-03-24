@@ -9,7 +9,7 @@ Empty lines and comment lines starting with `#` are to be ignored.
 Each other line has one of the following formats:
 
 * `test <arg>` starts a new testcase.
-  The `<arg>` is the message to parse. It may contain 2-digit hexadecimal escape sequence to encode arbitrary bytes, esp. ASCII control characters, e.g. `\x0A` for NL.
+  The `<arg>` is the message to parse. It may contain 2-digit hexadecimal escape sequences to encode arbitrary bytes, esp. ASCII control characters, e.g. `\x0A` for NL.
 * `ok <arg>` indicates that the current testcase is a valid message.
   The test MUST fail if the implementation produces an error while parsing this message
   The `<arg>` is a pretty-printed representation of an equivalent message with no superfluous whitespace, except for one space between each element of an S-expression.
@@ -19,4 +19,4 @@ Each other line has one of the following formats:
   The test MUST fail if the implementation produces *no* error while parsing this message.
   The first argument `<offset>` indicates at which byte offset the parse error occurred. The test SHOULD check whether it reports the same error location.
   The `<argument>` is a human-readable error message indicating the reason while this testcase fails to parse or validate.
-  The test SHOULD check whether it produces the same error message.
+  The test SHOULD check whether it produces the same (or an equivalent) error message.

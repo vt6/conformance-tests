@@ -64,1023 +64,1535 @@ test (want \x00)
 error 6 invalid start of atom
 test (want "\x00")
 ok (want "\x00")
+test (want "a\\x00b")
+error 14 invalid escape sequence
 test (want \x01)
 error 6 invalid start of atom
 test (want "\x01")
 ok (want "\x01")
+test (want "a\\x01b")
+error 14 invalid escape sequence
 test (want \x02)
 error 6 invalid start of atom
 test (want "\x02")
 ok (want "\x02")
+test (want "a\\x02b")
+error 14 invalid escape sequence
 test (want \x03)
 error 6 invalid start of atom
 test (want "\x03")
 ok (want "\x03")
+test (want "a\\x03b")
+error 14 invalid escape sequence
 test (want \x04)
 error 6 invalid start of atom
 test (want "\x04")
 ok (want "\x04")
+test (want "a\\x04b")
+error 14 invalid escape sequence
 test (want \x05)
 error 6 invalid start of atom
 test (want "\x05")
 ok (want "\x05")
+test (want "a\\x05b")
+error 14 invalid escape sequence
 test (want \x06)
 error 6 invalid start of atom
 test (want "\x06")
 ok (want "\x06")
+test (want "a\\x06b")
+error 14 invalid escape sequence
 test (want \x07)
 error 6 invalid start of atom
 test (want "\x07")
 ok (want "\x07")
+test (want "a\\x07b")
+error 14 invalid escape sequence
 test (want \x08)
 error 6 invalid start of atom
 test (want "\x08")
 ok (want "\x08")
+test (want "a\\x08b")
+error 14 invalid escape sequence
 test (want \x09)
 ok (want)
 test (want "\x09")
 ok (want "\x09")
+test (want "a\\x09b")
+error 14 invalid escape sequence
 test (want \x0A)
 ok (want)
 test (want "\x0A")
 ok (want "\x0A")
+test (want "a\\x0Ab")
+error 14 invalid escape sequence
 test (want \x0B)
 ok (want)
 test (want "\x0B")
 ok (want "\x0B")
+test (want "a\\x0Bb")
+error 14 invalid escape sequence
 test (want \x0C)
 ok (want)
 test (want "\x0C")
 ok (want "\x0C")
+test (want "a\\x0Cb")
+error 14 invalid escape sequence
 test (want \x0D)
 ok (want)
 test (want "\x0D")
 ok (want "\x0D")
+test (want "a\\x0Db")
+error 14 invalid escape sequence
 test (want \x0E)
 error 6 invalid start of atom
 test (want "\x0E")
 ok (want "\x0E")
+test (want "a\\x0Eb")
+error 14 invalid escape sequence
 test (want \x0F)
 error 6 invalid start of atom
 test (want "\x0F")
 ok (want "\x0F")
+test (want "a\\x0Fb")
+error 14 invalid escape sequence
 test (want \x10)
 error 6 invalid start of atom
 test (want "\x10")
 ok (want "\x10")
+test (want "a\\x10b")
+error 14 invalid escape sequence
 test (want \x11)
 error 6 invalid start of atom
 test (want "\x11")
 ok (want "\x11")
+test (want "a\\x11b")
+error 14 invalid escape sequence
 test (want \x12)
 error 6 invalid start of atom
 test (want "\x12")
 ok (want "\x12")
+test (want "a\\x12b")
+error 14 invalid escape sequence
 test (want \x13)
 error 6 invalid start of atom
 test (want "\x13")
 ok (want "\x13")
+test (want "a\\x13b")
+error 14 invalid escape sequence
 test (want \x14)
 error 6 invalid start of atom
 test (want "\x14")
 ok (want "\x14")
+test (want "a\\x14b")
+error 14 invalid escape sequence
 test (want \x15)
 error 6 invalid start of atom
 test (want "\x15")
 ok (want "\x15")
+test (want "a\\x15b")
+error 14 invalid escape sequence
 test (want \x16)
 error 6 invalid start of atom
 test (want "\x16")
 ok (want "\x16")
+test (want "a\\x16b")
+error 14 invalid escape sequence
 test (want \x17)
 error 6 invalid start of atom
 test (want "\x17")
 ok (want "\x17")
+test (want "a\\x17b")
+error 14 invalid escape sequence
 test (want \x18)
 error 6 invalid start of atom
 test (want "\x18")
 ok (want "\x18")
+test (want "a\\x18b")
+error 14 invalid escape sequence
 test (want \x19)
 error 6 invalid start of atom
 test (want "\x19")
 ok (want "\x19")
+test (want "a\\x19b")
+error 14 invalid escape sequence
 test (want \x1A)
 error 6 invalid start of atom
 test (want "\x1A")
 ok (want "\x1A")
+test (want "a\\x1Ab")
+error 14 invalid escape sequence
 test (want \x1B)
 error 6 invalid start of atom
 test (want "\x1B")
 ok (want "\x1B")
+test (want "a\\x1Bb")
+error 14 invalid escape sequence
 test (want \x1C)
 error 6 invalid start of atom
 test (want "\x1C")
 ok (want "\x1C")
+test (want "a\\x1Cb")
+error 14 invalid escape sequence
 test (want \x1D)
 error 6 invalid start of atom
 test (want "\x1D")
 ok (want "\x1D")
+test (want "a\\x1Db")
+error 14 invalid escape sequence
 test (want \x1E)
 error 6 invalid start of atom
 test (want "\x1E")
 ok (want "\x1E")
+test (want "a\\x1Eb")
+error 14 invalid escape sequence
 test (want \x1F)
 error 6 invalid start of atom
 test (want "\x1F")
 ok (want "\x1F")
+test (want "a\\x1Fb")
+error 14 invalid escape sequence
 test (want  )
 ok (want)
 test (want " ")
 ok (want " ")
+test (want "a\ b")
+error 14 invalid escape sequence
 test (want !)
 error 6 invalid start of atom
 test (want "!")
 ok (want "!")
+test (want "a\!b")
+error 14 invalid escape sequence
 test (want ")
 error 8 unexpected EOF in quoted string
 test (want """)
 error 10 unexpected EOF in quoted string
+test (want "a\"b")
+ok (want "a\"b")
 test (want #)
 error 6 invalid start of atom
 test (want "#")
 ok (want "#")
+test (want "a\#b")
+error 14 invalid escape sequence
 test (want $)
 error 6 invalid start of atom
 test (want "$")
 ok (want "$")
+test (want "a\$b")
+error 14 invalid escape sequence
 test (want %)
 error 6 invalid start of atom
 test (want "%")
 ok (want "%")
+test (want "a\%b")
+error 14 invalid escape sequence
 test (want &)
 error 6 invalid start of atom
 test (want "&")
 ok (want "&")
+test (want "a\&b")
+error 14 invalid escape sequence
 test (want ')
 error 6 invalid start of atom
 test (want "'")
 ok (want "'")
+test (want "a\'b")
+error 14 invalid escape sequence
 test (want ()
 error 8 unexpected EOF in S-expression
 test (want "(")
 ok (want "(")
+test (want "a\(b")
+error 14 invalid escape sequence
 test (want ))
 error 7 expected EOF
 test (want ")")
 ok (want ")")
+test (want "a\)b")
+error 14 invalid escape sequence
 test (want *)
 error 6 invalid start of atom
 test (want "*")
 ok (want "*")
+test (want "a\*b")
+error 14 invalid escape sequence
 test (want +)
 error 6 invalid start of atom
 test (want "+")
 ok (want "+")
+test (want "a\+b")
+error 14 invalid escape sequence
 test (want ,)
 error 6 invalid start of atom
 test (want ",")
 ok (want ",")
+test (want "a\,b")
+error 14 invalid escape sequence
 test (want -)
 ok (want -)
 test (want "-")
 ok (want -)
+test (want "a\-b")
+error 14 invalid escape sequence
 test (want .)
 ok (want .)
 test (want ".")
 ok (want .)
+test (want "a\.b")
+error 14 invalid escape sequence
 test (want /)
 error 6 invalid start of atom
 test (want "/")
 ok (want "/")
+test (want "a\/b")
+error 14 invalid escape sequence
 test (want 0)
 ok (want 0)
 test (want "0")
 ok (want 0)
+test (want "a\0b")
+error 14 invalid escape sequence
 test (want 1)
 ok (want 1)
 test (want "1")
 ok (want 1)
+test (want "a\1b")
+error 14 invalid escape sequence
 test (want 2)
 ok (want 2)
 test (want "2")
 ok (want 2)
+test (want "a\2b")
+error 14 invalid escape sequence
 test (want 3)
 ok (want 3)
 test (want "3")
 ok (want 3)
+test (want "a\3b")
+error 14 invalid escape sequence
 test (want 4)
 ok (want 4)
 test (want "4")
 ok (want 4)
+test (want "a\4b")
+error 14 invalid escape sequence
 test (want 5)
 ok (want 5)
 test (want "5")
 ok (want 5)
+test (want "a\5b")
+error 14 invalid escape sequence
 test (want 6)
 ok (want 6)
 test (want "6")
 ok (want 6)
+test (want "a\6b")
+error 14 invalid escape sequence
 test (want 7)
 ok (want 7)
 test (want "7")
 ok (want 7)
+test (want "a\7b")
+error 14 invalid escape sequence
 test (want 8)
 ok (want 8)
 test (want "8")
 ok (want 8)
+test (want "a\8b")
+error 14 invalid escape sequence
 test (want 9)
 ok (want 9)
 test (want "9")
 ok (want 9)
+test (want "a\9b")
+error 14 invalid escape sequence
 test (want :)
 error 6 invalid start of atom
 test (want ":")
 ok (want ":")
+test (want "a\:b")
+error 14 invalid escape sequence
 test (want ;)
 error 6 invalid start of atom
 test (want ";")
 ok (want ";")
+test (want "a\;b")
+error 14 invalid escape sequence
 test (want <)
 error 6 invalid start of atom
 test (want "<")
 ok (want "<")
+test (want "a\<b")
+error 14 invalid escape sequence
 test (want =)
 error 6 invalid start of atom
 test (want "=")
 ok (want "=")
+test (want "a\=b")
+error 14 invalid escape sequence
 test (want >)
 error 6 invalid start of atom
 test (want ">")
 ok (want ">")
+test (want "a\>b")
+error 14 invalid escape sequence
 test (want ?)
 error 6 invalid start of atom
 test (want "?")
 ok (want "?")
+test (want "a\?b")
+error 14 invalid escape sequence
 test (want @)
 error 6 invalid start of atom
 test (want "@")
 ok (want "@")
+test (want "a\@b")
+error 14 invalid escape sequence
 test (want A)
 ok (want A)
 test (want "A")
 ok (want A)
+test (want "a\Ab")
+error 14 invalid escape sequence
 test (want B)
 ok (want B)
 test (want "B")
 ok (want B)
+test (want "a\Bb")
+error 14 invalid escape sequence
 test (want C)
 ok (want C)
 test (want "C")
 ok (want C)
+test (want "a\Cb")
+error 14 invalid escape sequence
 test (want D)
 ok (want D)
 test (want "D")
 ok (want D)
+test (want "a\Db")
+error 14 invalid escape sequence
 test (want E)
 ok (want E)
 test (want "E")
 ok (want E)
+test (want "a\Eb")
+error 14 invalid escape sequence
 test (want F)
 ok (want F)
 test (want "F")
 ok (want F)
+test (want "a\Fb")
+error 14 invalid escape sequence
 test (want G)
 ok (want G)
 test (want "G")
 ok (want G)
+test (want "a\Gb")
+error 14 invalid escape sequence
 test (want H)
 ok (want H)
 test (want "H")
 ok (want H)
+test (want "a\Hb")
+error 14 invalid escape sequence
 test (want I)
 ok (want I)
 test (want "I")
 ok (want I)
+test (want "a\Ib")
+error 14 invalid escape sequence
 test (want J)
 ok (want J)
 test (want "J")
 ok (want J)
+test (want "a\Jb")
+error 14 invalid escape sequence
 test (want K)
 ok (want K)
 test (want "K")
 ok (want K)
+test (want "a\Kb")
+error 14 invalid escape sequence
 test (want L)
 ok (want L)
 test (want "L")
 ok (want L)
+test (want "a\Lb")
+error 14 invalid escape sequence
 test (want M)
 ok (want M)
 test (want "M")
 ok (want M)
+test (want "a\Mb")
+error 14 invalid escape sequence
 test (want N)
 ok (want N)
 test (want "N")
 ok (want N)
+test (want "a\Nb")
+error 14 invalid escape sequence
 test (want O)
 ok (want O)
 test (want "O")
 ok (want O)
+test (want "a\Ob")
+error 14 invalid escape sequence
 test (want P)
 ok (want P)
 test (want "P")
 ok (want P)
+test (want "a\Pb")
+error 14 invalid escape sequence
 test (want Q)
 ok (want Q)
 test (want "Q")
 ok (want Q)
+test (want "a\Qb")
+error 14 invalid escape sequence
 test (want R)
 ok (want R)
 test (want "R")
 ok (want R)
+test (want "a\Rb")
+error 14 invalid escape sequence
 test (want S)
 ok (want S)
 test (want "S")
 ok (want S)
+test (want "a\Sb")
+error 14 invalid escape sequence
 test (want T)
 ok (want T)
 test (want "T")
 ok (want T)
+test (want "a\Tb")
+error 14 invalid escape sequence
 test (want U)
 ok (want U)
 test (want "U")
 ok (want U)
+test (want "a\Ub")
+error 14 invalid escape sequence
 test (want V)
 ok (want V)
 test (want "V")
 ok (want V)
+test (want "a\Vb")
+error 14 invalid escape sequence
 test (want W)
 ok (want W)
 test (want "W")
 ok (want W)
+test (want "a\Wb")
+error 14 invalid escape sequence
 test (want X)
 ok (want X)
 test (want "X")
 ok (want X)
+test (want "a\Xb")
+error 14 invalid escape sequence
 test (want Y)
 ok (want Y)
 test (want "Y")
 ok (want Y)
+test (want "a\Yb")
+error 14 invalid escape sequence
 test (want Z)
 ok (want Z)
 test (want "Z")
 ok (want Z)
+test (want "a\Zb")
+error 14 invalid escape sequence
 test (want [)
 error 6 invalid start of atom
 test (want "[")
 ok (want "[")
+test (want "a\[b")
+error 14 invalid escape sequence
 test (want \)
 error 6 invalid start of atom
 test (want "\")
 error 10 unexpected EOF in quoted string
+test (want "a\\b")
+ok (want "a\\b")
 test (want ])
 error 6 invalid start of atom
 test (want "]")
 ok (want "]")
+test (want "a\]b")
+error 14 invalid escape sequence
 test (want ^)
 error 6 invalid start of atom
 test (want "^")
 ok (want "^")
+test (want "a\^b")
+error 14 invalid escape sequence
 test (want _)
 ok (want _)
 test (want "_")
 ok (want _)
+test (want "a\_b")
+error 14 invalid escape sequence
 test (want `)
 error 6 invalid start of atom
 test (want "`")
 ok (want "`")
+test (want "a\`b")
+error 14 invalid escape sequence
 test (want a)
 ok (want a)
 test (want "a")
 ok (want a)
+test (want "a\ab")
+error 14 invalid escape sequence
 test (want b)
 ok (want b)
 test (want "b")
 ok (want b)
+test (want "a\bb")
+error 14 invalid escape sequence
 test (want c)
 ok (want c)
 test (want "c")
 ok (want c)
+test (want "a\cb")
+error 14 invalid escape sequence
 test (want d)
 ok (want d)
 test (want "d")
 ok (want d)
+test (want "a\db")
+error 14 invalid escape sequence
 test (want e)
 ok (want e)
 test (want "e")
 ok (want e)
+test (want "a\eb")
+error 14 invalid escape sequence
 test (want f)
 ok (want f)
 test (want "f")
 ok (want f)
+test (want "a\fb")
+error 14 invalid escape sequence
 test (want g)
 ok (want g)
 test (want "g")
 ok (want g)
+test (want "a\gb")
+error 14 invalid escape sequence
 test (want h)
 ok (want h)
 test (want "h")
 ok (want h)
+test (want "a\hb")
+error 14 invalid escape sequence
 test (want i)
 ok (want i)
 test (want "i")
 ok (want i)
+test (want "a\ib")
+error 14 invalid escape sequence
 test (want j)
 ok (want j)
 test (want "j")
 ok (want j)
+test (want "a\jb")
+error 14 invalid escape sequence
 test (want k)
 ok (want k)
 test (want "k")
 ok (want k)
+test (want "a\kb")
+error 14 invalid escape sequence
 test (want l)
 ok (want l)
 test (want "l")
 ok (want l)
+test (want "a\lb")
+error 14 invalid escape sequence
 test (want m)
 ok (want m)
 test (want "m")
 ok (want m)
+test (want "a\mb")
+error 14 invalid escape sequence
 test (want n)
 ok (want n)
 test (want "n")
 ok (want n)
+test (want "a\nb")
+error 14 invalid escape sequence
 test (want o)
 ok (want o)
 test (want "o")
 ok (want o)
+test (want "a\ob")
+error 14 invalid escape sequence
 test (want p)
 ok (want p)
 test (want "p")
 ok (want p)
+test (want "a\pb")
+error 14 invalid escape sequence
 test (want q)
 ok (want q)
 test (want "q")
 ok (want q)
+test (want "a\qb")
+error 14 invalid escape sequence
 test (want r)
 ok (want r)
 test (want "r")
 ok (want r)
+test (want "a\rb")
+error 14 invalid escape sequence
 test (want s)
 ok (want s)
 test (want "s")
 ok (want s)
+test (want "a\sb")
+error 14 invalid escape sequence
 test (want t)
 ok (want t)
 test (want "t")
 ok (want t)
+test (want "a\tb")
+error 14 invalid escape sequence
 test (want u)
 ok (want u)
 test (want "u")
 ok (want u)
+test (want "a\ub")
+error 14 invalid escape sequence
 test (want v)
 ok (want v)
 test (want "v")
 ok (want v)
+test (want "a\vb")
+error 14 invalid escape sequence
 test (want w)
 ok (want w)
 test (want "w")
 ok (want w)
+test (want "a\wb")
+error 14 invalid escape sequence
 test (want x)
 ok (want x)
 test (want "x")
 ok (want x)
+test (want "a\xb")
+error 14 invalid escape sequence
 test (want y)
 ok (want y)
 test (want "y")
 ok (want y)
+test (want "a\yb")
+error 14 invalid escape sequence
 test (want z)
 ok (want z)
 test (want "z")
 ok (want z)
+test (want "a\zb")
+error 14 invalid escape sequence
 test (want {)
 error 6 invalid start of atom
 test (want "{")
 ok (want "{")
+test (want "a\{b")
+error 14 invalid escape sequence
 test (want |)
 error 6 invalid start of atom
 test (want "|")
 ok (want "|")
+test (want "a\|b")
+error 14 invalid escape sequence
 test (want })
 error 6 invalid start of atom
 test (want "}")
 ok (want "}")
+test (want "a\}b")
+error 14 invalid escape sequence
 test (want ~)
 error 6 invalid start of atom
 test (want "~")
 ok (want "~")
+test (want "a\~b")
+error 14 invalid escape sequence
 test (want \x7F)
 error 6 invalid start of atom
 test (want "\x7F")
 ok (want "\x7F")
+test (want "a\\x7Fb")
+error 14 invalid escape sequence
 test (want \x80)
 error 0 invalid UTF-8
 test (want "\x80")
 error 0 invalid UTF-8
+test (want "a\\x80b")
+error 14 invalid escape sequence
 test (want \x81)
 error 0 invalid UTF-8
 test (want "\x81")
 error 0 invalid UTF-8
+test (want "a\\x81b")
+error 14 invalid escape sequence
 test (want \x82)
 error 0 invalid UTF-8
 test (want "\x82")
 error 0 invalid UTF-8
+test (want "a\\x82b")
+error 14 invalid escape sequence
 test (want \x83)
 error 0 invalid UTF-8
 test (want "\x83")
 error 0 invalid UTF-8
+test (want "a\\x83b")
+error 14 invalid escape sequence
 test (want \x84)
 error 0 invalid UTF-8
 test (want "\x84")
 error 0 invalid UTF-8
+test (want "a\\x84b")
+error 14 invalid escape sequence
 test (want \x85)
 error 0 invalid UTF-8
 test (want "\x85")
 error 0 invalid UTF-8
+test (want "a\\x85b")
+error 14 invalid escape sequence
 test (want \x86)
 error 0 invalid UTF-8
 test (want "\x86")
 error 0 invalid UTF-8
+test (want "a\\x86b")
+error 14 invalid escape sequence
 test (want \x87)
 error 0 invalid UTF-8
 test (want "\x87")
 error 0 invalid UTF-8
+test (want "a\\x87b")
+error 14 invalid escape sequence
 test (want \x88)
 error 0 invalid UTF-8
 test (want "\x88")
 error 0 invalid UTF-8
+test (want "a\\x88b")
+error 14 invalid escape sequence
 test (want \x89)
 error 0 invalid UTF-8
 test (want "\x89")
 error 0 invalid UTF-8
+test (want "a\\x89b")
+error 14 invalid escape sequence
 test (want \x8A)
 error 0 invalid UTF-8
 test (want "\x8A")
 error 0 invalid UTF-8
+test (want "a\\x8Ab")
+error 14 invalid escape sequence
 test (want \x8B)
 error 0 invalid UTF-8
 test (want "\x8B")
 error 0 invalid UTF-8
+test (want "a\\x8Bb")
+error 14 invalid escape sequence
 test (want \x8C)
 error 0 invalid UTF-8
 test (want "\x8C")
 error 0 invalid UTF-8
+test (want "a\\x8Cb")
+error 14 invalid escape sequence
 test (want \x8D)
 error 0 invalid UTF-8
 test (want "\x8D")
 error 0 invalid UTF-8
+test (want "a\\x8Db")
+error 14 invalid escape sequence
 test (want \x8E)
 error 0 invalid UTF-8
 test (want "\x8E")
 error 0 invalid UTF-8
+test (want "a\\x8Eb")
+error 14 invalid escape sequence
 test (want \x8F)
 error 0 invalid UTF-8
 test (want "\x8F")
 error 0 invalid UTF-8
+test (want "a\\x8Fb")
+error 14 invalid escape sequence
 test (want \x90)
 error 0 invalid UTF-8
 test (want "\x90")
 error 0 invalid UTF-8
+test (want "a\\x90b")
+error 14 invalid escape sequence
 test (want \x91)
 error 0 invalid UTF-8
 test (want "\x91")
 error 0 invalid UTF-8
+test (want "a\\x91b")
+error 14 invalid escape sequence
 test (want \x92)
 error 0 invalid UTF-8
 test (want "\x92")
 error 0 invalid UTF-8
+test (want "a\\x92b")
+error 14 invalid escape sequence
 test (want \x93)
 error 0 invalid UTF-8
 test (want "\x93")
 error 0 invalid UTF-8
+test (want "a\\x93b")
+error 14 invalid escape sequence
 test (want \x94)
 error 0 invalid UTF-8
 test (want "\x94")
 error 0 invalid UTF-8
+test (want "a\\x94b")
+error 14 invalid escape sequence
 test (want \x95)
 error 0 invalid UTF-8
 test (want "\x95")
 error 0 invalid UTF-8
+test (want "a\\x95b")
+error 14 invalid escape sequence
 test (want \x96)
 error 0 invalid UTF-8
 test (want "\x96")
 error 0 invalid UTF-8
+test (want "a\\x96b")
+error 14 invalid escape sequence
 test (want \x97)
 error 0 invalid UTF-8
 test (want "\x97")
 error 0 invalid UTF-8
+test (want "a\\x97b")
+error 14 invalid escape sequence
 test (want \x98)
 error 0 invalid UTF-8
 test (want "\x98")
 error 0 invalid UTF-8
+test (want "a\\x98b")
+error 14 invalid escape sequence
 test (want \x99)
 error 0 invalid UTF-8
 test (want "\x99")
 error 0 invalid UTF-8
+test (want "a\\x99b")
+error 14 invalid escape sequence
 test (want \x9A)
 error 0 invalid UTF-8
 test (want "\x9A")
 error 0 invalid UTF-8
+test (want "a\\x9Ab")
+error 14 invalid escape sequence
 test (want \x9B)
 error 0 invalid UTF-8
 test (want "\x9B")
 error 0 invalid UTF-8
+test (want "a\\x9Bb")
+error 14 invalid escape sequence
 test (want \x9C)
 error 0 invalid UTF-8
 test (want "\x9C")
 error 0 invalid UTF-8
+test (want "a\\x9Cb")
+error 14 invalid escape sequence
 test (want \x9D)
 error 0 invalid UTF-8
 test (want "\x9D")
 error 0 invalid UTF-8
+test (want "a\\x9Db")
+error 14 invalid escape sequence
 test (want \x9E)
 error 0 invalid UTF-8
 test (want "\x9E")
 error 0 invalid UTF-8
+test (want "a\\x9Eb")
+error 14 invalid escape sequence
 test (want \x9F)
 error 0 invalid UTF-8
 test (want "\x9F")
 error 0 invalid UTF-8
+test (want "a\\x9Fb")
+error 14 invalid escape sequence
 test (want \xA0)
 error 0 invalid UTF-8
 test (want "\xA0")
 error 0 invalid UTF-8
+test (want "a\\xA0b")
+error 14 invalid escape sequence
 test (want \xA1)
 error 0 invalid UTF-8
 test (want "\xA1")
 error 0 invalid UTF-8
+test (want "a\\xA1b")
+error 14 invalid escape sequence
 test (want \xA2)
 error 0 invalid UTF-8
 test (want "\xA2")
 error 0 invalid UTF-8
+test (want "a\\xA2b")
+error 14 invalid escape sequence
 test (want \xA3)
 error 0 invalid UTF-8
 test (want "\xA3")
 error 0 invalid UTF-8
+test (want "a\\xA3b")
+error 14 invalid escape sequence
 test (want \xA4)
 error 0 invalid UTF-8
 test (want "\xA4")
 error 0 invalid UTF-8
+test (want "a\\xA4b")
+error 14 invalid escape sequence
 test (want \xA5)
 error 0 invalid UTF-8
 test (want "\xA5")
 error 0 invalid UTF-8
+test (want "a\\xA5b")
+error 14 invalid escape sequence
 test (want \xA6)
 error 0 invalid UTF-8
 test (want "\xA6")
 error 0 invalid UTF-8
+test (want "a\\xA6b")
+error 14 invalid escape sequence
 test (want \xA7)
 error 0 invalid UTF-8
 test (want "\xA7")
 error 0 invalid UTF-8
+test (want "a\\xA7b")
+error 14 invalid escape sequence
 test (want \xA8)
 error 0 invalid UTF-8
 test (want "\xA8")
 error 0 invalid UTF-8
+test (want "a\\xA8b")
+error 14 invalid escape sequence
 test (want \xA9)
 error 0 invalid UTF-8
 test (want "\xA9")
 error 0 invalid UTF-8
+test (want "a\\xA9b")
+error 14 invalid escape sequence
 test (want \xAA)
 error 0 invalid UTF-8
 test (want "\xAA")
 error 0 invalid UTF-8
+test (want "a\\xAAb")
+error 14 invalid escape sequence
 test (want \xAB)
 error 0 invalid UTF-8
 test (want "\xAB")
 error 0 invalid UTF-8
+test (want "a\\xABb")
+error 14 invalid escape sequence
 test (want \xAC)
 error 0 invalid UTF-8
 test (want "\xAC")
 error 0 invalid UTF-8
+test (want "a\\xACb")
+error 14 invalid escape sequence
 test (want \xAD)
 error 0 invalid UTF-8
 test (want "\xAD")
 error 0 invalid UTF-8
+test (want "a\\xADb")
+error 14 invalid escape sequence
 test (want \xAE)
 error 0 invalid UTF-8
 test (want "\xAE")
 error 0 invalid UTF-8
+test (want "a\\xAEb")
+error 14 invalid escape sequence
 test (want \xAF)
 error 0 invalid UTF-8
 test (want "\xAF")
 error 0 invalid UTF-8
+test (want "a\\xAFb")
+error 14 invalid escape sequence
 test (want \xB0)
 error 0 invalid UTF-8
 test (want "\xB0")
 error 0 invalid UTF-8
+test (want "a\\xB0b")
+error 14 invalid escape sequence
 test (want \xB1)
 error 0 invalid UTF-8
 test (want "\xB1")
 error 0 invalid UTF-8
+test (want "a\\xB1b")
+error 14 invalid escape sequence
 test (want \xB2)
 error 0 invalid UTF-8
 test (want "\xB2")
 error 0 invalid UTF-8
+test (want "a\\xB2b")
+error 14 invalid escape sequence
 test (want \xB3)
 error 0 invalid UTF-8
 test (want "\xB3")
 error 0 invalid UTF-8
+test (want "a\\xB3b")
+error 14 invalid escape sequence
 test (want \xB4)
 error 0 invalid UTF-8
 test (want "\xB4")
 error 0 invalid UTF-8
+test (want "a\\xB4b")
+error 14 invalid escape sequence
 test (want \xB5)
 error 0 invalid UTF-8
 test (want "\xB5")
 error 0 invalid UTF-8
+test (want "a\\xB5b")
+error 14 invalid escape sequence
 test (want \xB6)
 error 0 invalid UTF-8
 test (want "\xB6")
 error 0 invalid UTF-8
+test (want "a\\xB6b")
+error 14 invalid escape sequence
 test (want \xB7)
 error 0 invalid UTF-8
 test (want "\xB7")
 error 0 invalid UTF-8
+test (want "a\\xB7b")
+error 14 invalid escape sequence
 test (want \xB8)
 error 0 invalid UTF-8
 test (want "\xB8")
 error 0 invalid UTF-8
+test (want "a\\xB8b")
+error 14 invalid escape sequence
 test (want \xB9)
 error 0 invalid UTF-8
 test (want "\xB9")
 error 0 invalid UTF-8
+test (want "a\\xB9b")
+error 14 invalid escape sequence
 test (want \xBA)
 error 0 invalid UTF-8
 test (want "\xBA")
 error 0 invalid UTF-8
+test (want "a\\xBAb")
+error 14 invalid escape sequence
 test (want \xBB)
 error 0 invalid UTF-8
 test (want "\xBB")
 error 0 invalid UTF-8
+test (want "a\\xBBb")
+error 14 invalid escape sequence
 test (want \xBC)
 error 0 invalid UTF-8
 test (want "\xBC")
 error 0 invalid UTF-8
+test (want "a\\xBCb")
+error 14 invalid escape sequence
 test (want \xBD)
 error 0 invalid UTF-8
 test (want "\xBD")
 error 0 invalid UTF-8
+test (want "a\\xBDb")
+error 14 invalid escape sequence
 test (want \xBE)
 error 0 invalid UTF-8
 test (want "\xBE")
 error 0 invalid UTF-8
+test (want "a\\xBEb")
+error 14 invalid escape sequence
 test (want \xBF)
 error 0 invalid UTF-8
 test (want "\xBF")
 error 0 invalid UTF-8
+test (want "a\\xBFb")
+error 14 invalid escape sequence
 test (want \xC0)
 error 0 invalid UTF-8
 test (want "\xC0")
 error 0 invalid UTF-8
+test (want "a\\xC0b")
+error 14 invalid escape sequence
 test (want \xC1)
 error 0 invalid UTF-8
 test (want "\xC1")
 error 0 invalid UTF-8
+test (want "a\\xC1b")
+error 14 invalid escape sequence
 test (want \xC2)
 error 0 invalid UTF-8
 test (want "\xC2")
 error 0 invalid UTF-8
+test (want "a\\xC2b")
+error 14 invalid escape sequence
 test (want \xC3)
 error 0 invalid UTF-8
 test (want "\xC3")
 error 0 invalid UTF-8
+test (want "a\\xC3b")
+error 14 invalid escape sequence
 test (want \xC4)
 error 0 invalid UTF-8
 test (want "\xC4")
 error 0 invalid UTF-8
+test (want "a\\xC4b")
+error 14 invalid escape sequence
 test (want \xC5)
 error 0 invalid UTF-8
 test (want "\xC5")
 error 0 invalid UTF-8
+test (want "a\\xC5b")
+error 14 invalid escape sequence
 test (want \xC6)
 error 0 invalid UTF-8
 test (want "\xC6")
 error 0 invalid UTF-8
+test (want "a\\xC6b")
+error 14 invalid escape sequence
 test (want \xC7)
 error 0 invalid UTF-8
 test (want "\xC7")
 error 0 invalid UTF-8
+test (want "a\\xC7b")
+error 14 invalid escape sequence
 test (want \xC8)
 error 0 invalid UTF-8
 test (want "\xC8")
 error 0 invalid UTF-8
+test (want "a\\xC8b")
+error 14 invalid escape sequence
 test (want \xC9)
 error 0 invalid UTF-8
 test (want "\xC9")
 error 0 invalid UTF-8
+test (want "a\\xC9b")
+error 14 invalid escape sequence
 test (want \xCA)
 error 0 invalid UTF-8
 test (want "\xCA")
 error 0 invalid UTF-8
+test (want "a\\xCAb")
+error 14 invalid escape sequence
 test (want \xCB)
 error 0 invalid UTF-8
 test (want "\xCB")
 error 0 invalid UTF-8
+test (want "a\\xCBb")
+error 14 invalid escape sequence
 test (want \xCC)
 error 0 invalid UTF-8
 test (want "\xCC")
 error 0 invalid UTF-8
+test (want "a\\xCCb")
+error 14 invalid escape sequence
 test (want \xCD)
 error 0 invalid UTF-8
 test (want "\xCD")
 error 0 invalid UTF-8
+test (want "a\\xCDb")
+error 14 invalid escape sequence
 test (want \xCE)
 error 0 invalid UTF-8
 test (want "\xCE")
 error 0 invalid UTF-8
+test (want "a\\xCEb")
+error 14 invalid escape sequence
 test (want \xCF)
 error 0 invalid UTF-8
 test (want "\xCF")
 error 0 invalid UTF-8
+test (want "a\\xCFb")
+error 14 invalid escape sequence
 test (want \xD0)
 error 0 invalid UTF-8
 test (want "\xD0")
 error 0 invalid UTF-8
+test (want "a\\xD0b")
+error 14 invalid escape sequence
 test (want \xD1)
 error 0 invalid UTF-8
 test (want "\xD1")
 error 0 invalid UTF-8
+test (want "a\\xD1b")
+error 14 invalid escape sequence
 test (want \xD2)
 error 0 invalid UTF-8
 test (want "\xD2")
 error 0 invalid UTF-8
+test (want "a\\xD2b")
+error 14 invalid escape sequence
 test (want \xD3)
 error 0 invalid UTF-8
 test (want "\xD3")
 error 0 invalid UTF-8
+test (want "a\\xD3b")
+error 14 invalid escape sequence
 test (want \xD4)
 error 0 invalid UTF-8
 test (want "\xD4")
 error 0 invalid UTF-8
+test (want "a\\xD4b")
+error 14 invalid escape sequence
 test (want \xD5)
 error 0 invalid UTF-8
 test (want "\xD5")
 error 0 invalid UTF-8
+test (want "a\\xD5b")
+error 14 invalid escape sequence
 test (want \xD6)
 error 0 invalid UTF-8
 test (want "\xD6")
 error 0 invalid UTF-8
+test (want "a\\xD6b")
+error 14 invalid escape sequence
 test (want \xD7)
 error 0 invalid UTF-8
 test (want "\xD7")
 error 0 invalid UTF-8
+test (want "a\\xD7b")
+error 14 invalid escape sequence
 test (want \xD8)
 error 0 invalid UTF-8
 test (want "\xD8")
 error 0 invalid UTF-8
+test (want "a\\xD8b")
+error 14 invalid escape sequence
 test (want \xD9)
 error 0 invalid UTF-8
 test (want "\xD9")
 error 0 invalid UTF-8
+test (want "a\\xD9b")
+error 14 invalid escape sequence
 test (want \xDA)
 error 0 invalid UTF-8
 test (want "\xDA")
 error 0 invalid UTF-8
+test (want "a\\xDAb")
+error 14 invalid escape sequence
 test (want \xDB)
 error 0 invalid UTF-8
 test (want "\xDB")
 error 0 invalid UTF-8
+test (want "a\\xDBb")
+error 14 invalid escape sequence
 test (want \xDC)
 error 0 invalid UTF-8
 test (want "\xDC")
 error 0 invalid UTF-8
+test (want "a\\xDCb")
+error 14 invalid escape sequence
 test (want \xDD)
 error 0 invalid UTF-8
 test (want "\xDD")
 error 0 invalid UTF-8
+test (want "a\\xDDb")
+error 14 invalid escape sequence
 test (want \xDE)
 error 0 invalid UTF-8
 test (want "\xDE")
 error 0 invalid UTF-8
+test (want "a\\xDEb")
+error 14 invalid escape sequence
 test (want \xDF)
 error 0 invalid UTF-8
 test (want "\xDF")
 error 0 invalid UTF-8
+test (want "a\\xDFb")
+error 14 invalid escape sequence
 test (want \xE0)
 error 0 invalid UTF-8
 test (want "\xE0")
 error 0 invalid UTF-8
+test (want "a\\xE0b")
+error 14 invalid escape sequence
 test (want \xE1)
 error 0 invalid UTF-8
 test (want "\xE1")
 error 0 invalid UTF-8
+test (want "a\\xE1b")
+error 14 invalid escape sequence
 test (want \xE2)
 error 0 invalid UTF-8
 test (want "\xE2")
 error 0 invalid UTF-8
+test (want "a\\xE2b")
+error 14 invalid escape sequence
 test (want \xE3)
 error 0 invalid UTF-8
 test (want "\xE3")
 error 0 invalid UTF-8
+test (want "a\\xE3b")
+error 14 invalid escape sequence
 test (want \xE4)
 error 0 invalid UTF-8
 test (want "\xE4")
 error 0 invalid UTF-8
+test (want "a\\xE4b")
+error 14 invalid escape sequence
 test (want \xE5)
 error 0 invalid UTF-8
 test (want "\xE5")
 error 0 invalid UTF-8
+test (want "a\\xE5b")
+error 14 invalid escape sequence
 test (want \xE6)
 error 0 invalid UTF-8
 test (want "\xE6")
 error 0 invalid UTF-8
+test (want "a\\xE6b")
+error 14 invalid escape sequence
 test (want \xE7)
 error 0 invalid UTF-8
 test (want "\xE7")
 error 0 invalid UTF-8
+test (want "a\\xE7b")
+error 14 invalid escape sequence
 test (want \xE8)
 error 0 invalid UTF-8
 test (want "\xE8")
 error 0 invalid UTF-8
+test (want "a\\xE8b")
+error 14 invalid escape sequence
 test (want \xE9)
 error 0 invalid UTF-8
 test (want "\xE9")
 error 0 invalid UTF-8
+test (want "a\\xE9b")
+error 14 invalid escape sequence
 test (want \xEA)
 error 0 invalid UTF-8
 test (want "\xEA")
 error 0 invalid UTF-8
+test (want "a\\xEAb")
+error 14 invalid escape sequence
 test (want \xEB)
 error 0 invalid UTF-8
 test (want "\xEB")
 error 0 invalid UTF-8
+test (want "a\\xEBb")
+error 14 invalid escape sequence
 test (want \xEC)
 error 0 invalid UTF-8
 test (want "\xEC")
 error 0 invalid UTF-8
+test (want "a\\xECb")
+error 14 invalid escape sequence
 test (want \xED)
 error 0 invalid UTF-8
 test (want "\xED")
 error 0 invalid UTF-8
+test (want "a\\xEDb")
+error 14 invalid escape sequence
 test (want \xEE)
 error 0 invalid UTF-8
 test (want "\xEE")
 error 0 invalid UTF-8
+test (want "a\\xEEb")
+error 14 invalid escape sequence
 test (want \xEF)
 error 0 invalid UTF-8
 test (want "\xEF")
 error 0 invalid UTF-8
+test (want "a\\xEFb")
+error 14 invalid escape sequence
 test (want \xF0)
 error 0 invalid UTF-8
 test (want "\xF0")
 error 0 invalid UTF-8
+test (want "a\\xF0b")
+error 14 invalid escape sequence
 test (want \xF1)
 error 0 invalid UTF-8
 test (want "\xF1")
 error 0 invalid UTF-8
+test (want "a\\xF1b")
+error 14 invalid escape sequence
 test (want \xF2)
 error 0 invalid UTF-8
 test (want "\xF2")
 error 0 invalid UTF-8
+test (want "a\\xF2b")
+error 14 invalid escape sequence
 test (want \xF3)
 error 0 invalid UTF-8
 test (want "\xF3")
 error 0 invalid UTF-8
+test (want "a\\xF3b")
+error 14 invalid escape sequence
 test (want \xF4)
 error 0 invalid UTF-8
 test (want "\xF4")
 error 0 invalid UTF-8
+test (want "a\\xF4b")
+error 14 invalid escape sequence
 test (want \xF5)
 error 0 invalid UTF-8
 test (want "\xF5")
 error 0 invalid UTF-8
+test (want "a\\xF5b")
+error 14 invalid escape sequence
 test (want \xF6)
 error 0 invalid UTF-8
 test (want "\xF6")
 error 0 invalid UTF-8
+test (want "a\\xF6b")
+error 14 invalid escape sequence
 test (want \xF7)
 error 0 invalid UTF-8
 test (want "\xF7")
 error 0 invalid UTF-8
+test (want "a\\xF7b")
+error 14 invalid escape sequence
 test (want \xF8)
 error 0 invalid UTF-8
 test (want "\xF8")
 error 0 invalid UTF-8
+test (want "a\\xF8b")
+error 14 invalid escape sequence
 test (want \xF9)
 error 0 invalid UTF-8
 test (want "\xF9")
 error 0 invalid UTF-8
+test (want "a\\xF9b")
+error 14 invalid escape sequence
 test (want \xFA)
 error 0 invalid UTF-8
 test (want "\xFA")
 error 0 invalid UTF-8
+test (want "a\\xFAb")
+error 14 invalid escape sequence
 test (want \xFB)
 error 0 invalid UTF-8
 test (want "\xFB")
 error 0 invalid UTF-8
+test (want "a\\xFBb")
+error 14 invalid escape sequence
 test (want \xFC)
 error 0 invalid UTF-8
 test (want "\xFC")
 error 0 invalid UTF-8
+test (want "a\\xFCb")
+error 14 invalid escape sequence
 test (want \xFD)
 error 0 invalid UTF-8
 test (want "\xFD")
 error 0 invalid UTF-8
+test (want "a\\xFDb")
+error 14 invalid escape sequence
 test (want \xFE)
 error 0 invalid UTF-8
 test (want "\xFE")
 error 0 invalid UTF-8
+test (want "a\\xFEb")
+error 14 invalid escape sequence
 test (want \xFF)
 error 0 invalid UTF-8
 test (want "\xFF")
 error 0 invalid UTF-8
+test (want "a\\xFFb")
+error 14 invalid escape sequence

@@ -120,4 +120,11 @@ for my $ord (0..255) {
       say "ok (want \"$escaped\")";
     }
   }
+
+  say "test (want \"a\\${escaped}b\")";
+  if ($char eq '\\' or $char eq '"') {
+    say "ok (want \"a\\${char}b\")";
+  } else {
+    say 'error 14 invalid escape sequence';
+  }
 }
