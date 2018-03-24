@@ -1,4 +1,4 @@
-all: core/message-parsing.txt
+all: core/parse-sexp.txt
 
 %: %.pl
 	perl $< > $@
