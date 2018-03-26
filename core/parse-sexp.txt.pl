@@ -23,15 +23,15 @@ test (want bar)
 ok   (want bar)
 
 # whitespaces!
-test (want  \n\f    )
+test (want  \x0A\x0C    )
 ok   (want)
 
 test (want  ( ) ( )  )
-ok   (want ()())
+ok   (want () ())
 test (want  ( ( ) )  )
 ok   (want (()))
 
-test (   \t\nwant\fbar\rfoo    )
+test (   \x09\x0Awant\x0Cbar\x0Dfoo    )
 ok   (want bar foo)
 
 # what's allowed in barewords
@@ -57,8 +57,8 @@ test (want "string with \\back\\slashes")
 ok   (want "string with \\back\\slashes")
 
 # quoted strings allow UTF-8
-test (want "¯\_(ツ)_/¯")
-ok (want "¯\_(ツ)_/¯")
+test (want "¯\\_(ツ)_/¯")
+ok (want "¯\\_(ツ)_/¯")
 
 # errors when parsing S-expressions
 test  a(want foo bar)
@@ -102,8 +102,6 @@ for my $ord (0..255) {
     say 'error 7 expected EOF';
   } elsif ($char eq '"') {
     say 'error 8 unexpected EOF in quoted string';
-  } elsif (is_high($char)) {
-    say 'error 0 invalid UTF-8';
   } else {
     say 'error 6 invalid start of atom';
   }
@@ -125,6 +123,6 @@ for my $ord (0..255) {
   if ($char eq '\\' or $char eq '"') {
     say "ok (want \"a\\${char}b\")";
   } else {
-    say 'error 14 invalid escape sequence';
+    say 'error 8 invalid escape sequence';
   }
 }
