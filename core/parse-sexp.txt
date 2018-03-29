@@ -831,768 +831,768 @@ error 8 invalid escape sequence
 test (want \x80)
 error 6 invalid start of atom
 test (want "\x80")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x80b")
 error 8 invalid escape sequence
 test (want \x81)
 error 6 invalid start of atom
 test (want "\x81")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x81b")
 error 8 invalid escape sequence
 test (want \x82)
 error 6 invalid start of atom
 test (want "\x82")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x82b")
 error 8 invalid escape sequence
 test (want \x83)
 error 6 invalid start of atom
 test (want "\x83")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x83b")
 error 8 invalid escape sequence
 test (want \x84)
 error 6 invalid start of atom
 test (want "\x84")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x84b")
 error 8 invalid escape sequence
 test (want \x85)
 error 6 invalid start of atom
 test (want "\x85")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x85b")
 error 8 invalid escape sequence
 test (want \x86)
 error 6 invalid start of atom
 test (want "\x86")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x86b")
 error 8 invalid escape sequence
 test (want \x87)
 error 6 invalid start of atom
 test (want "\x87")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x87b")
 error 8 invalid escape sequence
 test (want \x88)
 error 6 invalid start of atom
 test (want "\x88")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x88b")
 error 8 invalid escape sequence
 test (want \x89)
 error 6 invalid start of atom
 test (want "\x89")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x89b")
 error 8 invalid escape sequence
 test (want \x8A)
 error 6 invalid start of atom
 test (want "\x8A")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x8Ab")
 error 8 invalid escape sequence
 test (want \x8B)
 error 6 invalid start of atom
 test (want "\x8B")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x8Bb")
 error 8 invalid escape sequence
 test (want \x8C)
 error 6 invalid start of atom
 test (want "\x8C")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x8Cb")
 error 8 invalid escape sequence
 test (want \x8D)
 error 6 invalid start of atom
 test (want "\x8D")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x8Db")
 error 8 invalid escape sequence
 test (want \x8E)
 error 6 invalid start of atom
 test (want "\x8E")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x8Eb")
 error 8 invalid escape sequence
 test (want \x8F)
 error 6 invalid start of atom
 test (want "\x8F")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x8Fb")
 error 8 invalid escape sequence
 test (want \x90)
 error 6 invalid start of atom
 test (want "\x90")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x90b")
 error 8 invalid escape sequence
 test (want \x91)
 error 6 invalid start of atom
 test (want "\x91")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x91b")
 error 8 invalid escape sequence
 test (want \x92)
 error 6 invalid start of atom
 test (want "\x92")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x92b")
 error 8 invalid escape sequence
 test (want \x93)
 error 6 invalid start of atom
 test (want "\x93")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x93b")
 error 8 invalid escape sequence
 test (want \x94)
 error 6 invalid start of atom
 test (want "\x94")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x94b")
 error 8 invalid escape sequence
 test (want \x95)
 error 6 invalid start of atom
 test (want "\x95")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x95b")
 error 8 invalid escape sequence
 test (want \x96)
 error 6 invalid start of atom
 test (want "\x96")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x96b")
 error 8 invalid escape sequence
 test (want \x97)
 error 6 invalid start of atom
 test (want "\x97")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x97b")
 error 8 invalid escape sequence
 test (want \x98)
 error 6 invalid start of atom
 test (want "\x98")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x98b")
 error 8 invalid escape sequence
 test (want \x99)
 error 6 invalid start of atom
 test (want "\x99")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x99b")
 error 8 invalid escape sequence
 test (want \x9A)
 error 6 invalid start of atom
 test (want "\x9A")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x9Ab")
 error 8 invalid escape sequence
 test (want \x9B)
 error 6 invalid start of atom
 test (want "\x9B")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x9Bb")
 error 8 invalid escape sequence
 test (want \x9C)
 error 6 invalid start of atom
 test (want "\x9C")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x9Cb")
 error 8 invalid escape sequence
 test (want \x9D)
 error 6 invalid start of atom
 test (want "\x9D")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x9Db")
 error 8 invalid escape sequence
 test (want \x9E)
 error 6 invalid start of atom
 test (want "\x9E")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x9Eb")
 error 8 invalid escape sequence
 test (want \x9F)
 error 6 invalid start of atom
 test (want "\x9F")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\x9Fb")
 error 8 invalid escape sequence
 test (want \xA0)
 error 6 invalid start of atom
 test (want "\xA0")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA0b")
 error 8 invalid escape sequence
 test (want \xA1)
 error 6 invalid start of atom
 test (want "\xA1")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA1b")
 error 8 invalid escape sequence
 test (want \xA2)
 error 6 invalid start of atom
 test (want "\xA2")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA2b")
 error 8 invalid escape sequence
 test (want \xA3)
 error 6 invalid start of atom
 test (want "\xA3")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA3b")
 error 8 invalid escape sequence
 test (want \xA4)
 error 6 invalid start of atom
 test (want "\xA4")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA4b")
 error 8 invalid escape sequence
 test (want \xA5)
 error 6 invalid start of atom
 test (want "\xA5")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA5b")
 error 8 invalid escape sequence
 test (want \xA6)
 error 6 invalid start of atom
 test (want "\xA6")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA6b")
 error 8 invalid escape sequence
 test (want \xA7)
 error 6 invalid start of atom
 test (want "\xA7")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA7b")
 error 8 invalid escape sequence
 test (want \xA8)
 error 6 invalid start of atom
 test (want "\xA8")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA8b")
 error 8 invalid escape sequence
 test (want \xA9)
 error 6 invalid start of atom
 test (want "\xA9")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xA9b")
 error 8 invalid escape sequence
 test (want \xAA)
 error 6 invalid start of atom
 test (want "\xAA")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xAAb")
 error 8 invalid escape sequence
 test (want \xAB)
 error 6 invalid start of atom
 test (want "\xAB")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xABb")
 error 8 invalid escape sequence
 test (want \xAC)
 error 6 invalid start of atom
 test (want "\xAC")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xACb")
 error 8 invalid escape sequence
 test (want \xAD)
 error 6 invalid start of atom
 test (want "\xAD")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xADb")
 error 8 invalid escape sequence
 test (want \xAE)
 error 6 invalid start of atom
 test (want "\xAE")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xAEb")
 error 8 invalid escape sequence
 test (want \xAF)
 error 6 invalid start of atom
 test (want "\xAF")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xAFb")
 error 8 invalid escape sequence
 test (want \xB0)
 error 6 invalid start of atom
 test (want "\xB0")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB0b")
 error 8 invalid escape sequence
 test (want \xB1)
 error 6 invalid start of atom
 test (want "\xB1")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB1b")
 error 8 invalid escape sequence
 test (want \xB2)
 error 6 invalid start of atom
 test (want "\xB2")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB2b")
 error 8 invalid escape sequence
 test (want \xB3)
 error 6 invalid start of atom
 test (want "\xB3")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB3b")
 error 8 invalid escape sequence
 test (want \xB4)
 error 6 invalid start of atom
 test (want "\xB4")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB4b")
 error 8 invalid escape sequence
 test (want \xB5)
 error 6 invalid start of atom
 test (want "\xB5")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB5b")
 error 8 invalid escape sequence
 test (want \xB6)
 error 6 invalid start of atom
 test (want "\xB6")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB6b")
 error 8 invalid escape sequence
 test (want \xB7)
 error 6 invalid start of atom
 test (want "\xB7")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB7b")
 error 8 invalid escape sequence
 test (want \xB8)
 error 6 invalid start of atom
 test (want "\xB8")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB8b")
 error 8 invalid escape sequence
 test (want \xB9)
 error 6 invalid start of atom
 test (want "\xB9")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xB9b")
 error 8 invalid escape sequence
 test (want \xBA)
 error 6 invalid start of atom
 test (want "\xBA")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xBAb")
 error 8 invalid escape sequence
 test (want \xBB)
 error 6 invalid start of atom
 test (want "\xBB")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xBBb")
 error 8 invalid escape sequence
 test (want \xBC)
 error 6 invalid start of atom
 test (want "\xBC")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xBCb")
 error 8 invalid escape sequence
 test (want \xBD)
 error 6 invalid start of atom
 test (want "\xBD")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xBDb")
 error 8 invalid escape sequence
 test (want \xBE)
 error 6 invalid start of atom
 test (want "\xBE")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xBEb")
 error 8 invalid escape sequence
 test (want \xBF)
 error 6 invalid start of atom
 test (want "\xBF")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xBFb")
 error 8 invalid escape sequence
 test (want \xC0)
 error 6 invalid start of atom
 test (want "\xC0")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC0b")
 error 8 invalid escape sequence
 test (want \xC1)
 error 6 invalid start of atom
 test (want "\xC1")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC1b")
 error 8 invalid escape sequence
 test (want \xC2)
 error 6 invalid start of atom
 test (want "\xC2")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC2b")
 error 8 invalid escape sequence
 test (want \xC3)
 error 6 invalid start of atom
 test (want "\xC3")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC3b")
 error 8 invalid escape sequence
 test (want \xC4)
 error 6 invalid start of atom
 test (want "\xC4")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC4b")
 error 8 invalid escape sequence
 test (want \xC5)
 error 6 invalid start of atom
 test (want "\xC5")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC5b")
 error 8 invalid escape sequence
 test (want \xC6)
 error 6 invalid start of atom
 test (want "\xC6")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC6b")
 error 8 invalid escape sequence
 test (want \xC7)
 error 6 invalid start of atom
 test (want "\xC7")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC7b")
 error 8 invalid escape sequence
 test (want \xC8)
 error 6 invalid start of atom
 test (want "\xC8")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC8b")
 error 8 invalid escape sequence
 test (want \xC9)
 error 6 invalid start of atom
 test (want "\xC9")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xC9b")
 error 8 invalid escape sequence
 test (want \xCA)
 error 6 invalid start of atom
 test (want "\xCA")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xCAb")
 error 8 invalid escape sequence
 test (want \xCB)
 error 6 invalid start of atom
 test (want "\xCB")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xCBb")
 error 8 invalid escape sequence
 test (want \xCC)
 error 6 invalid start of atom
 test (want "\xCC")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xCCb")
 error 8 invalid escape sequence
 test (want \xCD)
 error 6 invalid start of atom
 test (want "\xCD")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xCDb")
 error 8 invalid escape sequence
 test (want \xCE)
 error 6 invalid start of atom
 test (want "\xCE")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xCEb")
 error 8 invalid escape sequence
 test (want \xCF)
 error 6 invalid start of atom
 test (want "\xCF")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xCFb")
 error 8 invalid escape sequence
 test (want \xD0)
 error 6 invalid start of atom
 test (want "\xD0")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD0b")
 error 8 invalid escape sequence
 test (want \xD1)
 error 6 invalid start of atom
 test (want "\xD1")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD1b")
 error 8 invalid escape sequence
 test (want \xD2)
 error 6 invalid start of atom
 test (want "\xD2")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD2b")
 error 8 invalid escape sequence
 test (want \xD3)
 error 6 invalid start of atom
 test (want "\xD3")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD3b")
 error 8 invalid escape sequence
 test (want \xD4)
 error 6 invalid start of atom
 test (want "\xD4")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD4b")
 error 8 invalid escape sequence
 test (want \xD5)
 error 6 invalid start of atom
 test (want "\xD5")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD5b")
 error 8 invalid escape sequence
 test (want \xD6)
 error 6 invalid start of atom
 test (want "\xD6")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD6b")
 error 8 invalid escape sequence
 test (want \xD7)
 error 6 invalid start of atom
 test (want "\xD7")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD7b")
 error 8 invalid escape sequence
 test (want \xD8)
 error 6 invalid start of atom
 test (want "\xD8")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD8b")
 error 8 invalid escape sequence
 test (want \xD9)
 error 6 invalid start of atom
 test (want "\xD9")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xD9b")
 error 8 invalid escape sequence
 test (want \xDA)
 error 6 invalid start of atom
 test (want "\xDA")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xDAb")
 error 8 invalid escape sequence
 test (want \xDB)
 error 6 invalid start of atom
 test (want "\xDB")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xDBb")
 error 8 invalid escape sequence
 test (want \xDC)
 error 6 invalid start of atom
 test (want "\xDC")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xDCb")
 error 8 invalid escape sequence
 test (want \xDD)
 error 6 invalid start of atom
 test (want "\xDD")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xDDb")
 error 8 invalid escape sequence
 test (want \xDE)
 error 6 invalid start of atom
 test (want "\xDE")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xDEb")
 error 8 invalid escape sequence
 test (want \xDF)
 error 6 invalid start of atom
 test (want "\xDF")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xDFb")
 error 8 invalid escape sequence
 test (want \xE0)
 error 6 invalid start of atom
 test (want "\xE0")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE0b")
 error 8 invalid escape sequence
 test (want \xE1)
 error 6 invalid start of atom
 test (want "\xE1")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE1b")
 error 8 invalid escape sequence
 test (want \xE2)
 error 6 invalid start of atom
 test (want "\xE2")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE2b")
 error 8 invalid escape sequence
 test (want \xE3)
 error 6 invalid start of atom
 test (want "\xE3")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE3b")
 error 8 invalid escape sequence
 test (want \xE4)
 error 6 invalid start of atom
 test (want "\xE4")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE4b")
 error 8 invalid escape sequence
 test (want \xE5)
 error 6 invalid start of atom
 test (want "\xE5")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE5b")
 error 8 invalid escape sequence
 test (want \xE6)
 error 6 invalid start of atom
 test (want "\xE6")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE6b")
 error 8 invalid escape sequence
 test (want \xE7)
 error 6 invalid start of atom
 test (want "\xE7")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE7b")
 error 8 invalid escape sequence
 test (want \xE8)
 error 6 invalid start of atom
 test (want "\xE8")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE8b")
 error 8 invalid escape sequence
 test (want \xE9)
 error 6 invalid start of atom
 test (want "\xE9")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xE9b")
 error 8 invalid escape sequence
 test (want \xEA)
 error 6 invalid start of atom
 test (want "\xEA")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xEAb")
 error 8 invalid escape sequence
 test (want \xEB)
 error 6 invalid start of atom
 test (want "\xEB")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xEBb")
 error 8 invalid escape sequence
 test (want \xEC)
 error 6 invalid start of atom
 test (want "\xEC")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xECb")
 error 8 invalid escape sequence
 test (want \xED)
 error 6 invalid start of atom
 test (want "\xED")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xEDb")
 error 8 invalid escape sequence
 test (want \xEE)
 error 6 invalid start of atom
 test (want "\xEE")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xEEb")
 error 8 invalid escape sequence
 test (want \xEF)
 error 6 invalid start of atom
 test (want "\xEF")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xEFb")
 error 8 invalid escape sequence
 test (want \xF0)
 error 6 invalid start of atom
 test (want "\xF0")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF0b")
 error 8 invalid escape sequence
 test (want \xF1)
 error 6 invalid start of atom
 test (want "\xF1")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF1b")
 error 8 invalid escape sequence
 test (want \xF2)
 error 6 invalid start of atom
 test (want "\xF2")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF2b")
 error 8 invalid escape sequence
 test (want \xF3)
 error 6 invalid start of atom
 test (want "\xF3")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF3b")
 error 8 invalid escape sequence
 test (want \xF4)
 error 6 invalid start of atom
 test (want "\xF4")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF4b")
 error 8 invalid escape sequence
 test (want \xF5)
 error 6 invalid start of atom
 test (want "\xF5")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF5b")
 error 8 invalid escape sequence
 test (want \xF6)
 error 6 invalid start of atom
 test (want "\xF6")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF6b")
 error 8 invalid escape sequence
 test (want \xF7)
 error 6 invalid start of atom
 test (want "\xF7")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF7b")
 error 8 invalid escape sequence
 test (want \xF8)
 error 6 invalid start of atom
 test (want "\xF8")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF8b")
 error 8 invalid escape sequence
 test (want \xF9)
 error 6 invalid start of atom
 test (want "\xF9")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xF9b")
 error 8 invalid escape sequence
 test (want \xFA)
 error 6 invalid start of atom
 test (want "\xFA")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xFAb")
 error 8 invalid escape sequence
 test (want \xFB)
 error 6 invalid start of atom
 test (want "\xFB")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xFBb")
 error 8 invalid escape sequence
 test (want \xFC)
 error 6 invalid start of atom
 test (want "\xFC")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xFCb")
 error 8 invalid escape sequence
 test (want \xFD)
 error 6 invalid start of atom
 test (want "\xFD")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xFDb")
 error 8 invalid escape sequence
 test (want \xFE)
 error 6 invalid start of atom
 test (want "\xFE")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xFEb")
 error 8 invalid escape sequence
 test (want \xFF)
 error 6 invalid start of atom
 test (want "\xFF")
-error 0 invalid UTF-8
+error 7 invalid UTF-8
 test (want "a\\xFFb")
 error 8 invalid escape sequence

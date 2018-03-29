@@ -110,7 +110,7 @@ for my $ord (0..255) {
   if ($char eq '\\' or $char eq '"') {
     say 'error 10 unexpected EOF in quoted string';
   } elsif (is_high($char)) {
-    say 'error 0 invalid UTF-8';
+    say 'error 7 invalid UTF-8';
   } else {
     if (is_bareword($char)) {
       say "ok (want $char)";
