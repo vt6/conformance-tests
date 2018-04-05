@@ -20,3 +20,24 @@ Each other line has one of the following formats:
   The first argument `<offset>` indicates at which byte offset the parse error occurred. The test SHOULD check whether it reports the same error location.
   The `<argument>` is a human-readable error message indicating the reason while this testcase fails to parse or validate.
   The test SHOULD check whether it produces the same (or an equivalent) error message.
+
+## `negotiation.txt`
+
+This file contains test cases for capability negotiation using the `want` and `have` messages as defined in <https://vt6.io/std/core/1.0/#section-4>.
+This test case only applies to server implementations.
+
+Empty lines and comment lines starting with `#` are to be ignored.
+Each other line has one of the following formats:
+
+- A line containing a string representation of a `want` message means that, as part of the current test case, this message shall be sent to the server being tested.
+- A line containing a string representation of any other message means that the test MUST fail if the server being tested does not send this message at this point. As a special rule, the letter `X` in the string `core1.X` occurring anywhere in the message is a placeholder for the minor version of core1 supported by the server.
+- `---` ends the current test case and starts a new one. Each test case shall behave as if it is happening on a separate fresh server connection.
+
+The test MUST also fail if the server sends any messages that are not mentioned in the file.
+
+As also indicated in the comments in the file, the test cases reference certain modules and capabilities that are only defined inside the test cases:
+
+- The server SHALL always agree to using the `conftest1` module with minor version 3.
+- The server SHALL always agree to using the `conftest1.acceptable` capability.
+- The server SHALL NOT agree to using the `conftest1.unacceptable` capability.
+- The server SHALL NOT agree to using the `conftest2` module.
