@@ -33,7 +33,7 @@
 
 # cannot agree to a capability before having agreed to the module
 (want core1 conftest1.acceptable conftest1.unacceptable conftest1)
-(have)
+(nope)
 ---
 (want core1)
 (have core1.X)
@@ -43,28 +43,28 @@
 
 # everything must be barewords in `want` and `have` messages
 ("want" core1)
-(have)
+(nope)
 ---
 (want "core1")
-(have)
+(nope)
 ---
 (want core1)
 (have core1.X)
 ("want" conftest1)
-(core1.nope)
+(nope)
 ---
 (want core1)
 (have core1.X)
 (want "conftest1")
-(core1.nope)
+(nope)
 ---
 (want core1 (w t f))
-(have)
+(nope)
 ---
 (want core1)
 (have core1.X)
 (want ("wtf") conftest1)
-(core1.nope)
+(nope)
 ---
 
 # when the client asks about the same thing multiple times, the server must
