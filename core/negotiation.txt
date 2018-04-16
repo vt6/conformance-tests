@@ -28,7 +28,7 @@
 
 # capability cannot be accepted without its module
 (want core1 conftest1.acceptable conftest1.unacceptable)
-(have core1.X)
+(nope)
 ---
 
 # cannot agree to a capability before having agreed to the module
@@ -38,7 +38,7 @@
 (want core1)
 (have core1.X)
 (want conftest1.acceptable conftest1.unacceptable conftest1)
-(core1.nope)
+(nope)
 ---
 
 # everything must be barewords in `want` and `have` messages
