@@ -1,0 +1,78 @@
+# the conftest1 module is always accepted
+(want core1)
+(have core1.X)
+(want conftest1)
+(have conftest1.3)
+---
+(want core1 conftest1)
+(have core1.X conftest1.3)
+---
+
+# the conftest2 module is never accepted
+(want core1)
+(have core1.X)
+(want conftest2)
+(have)
+---
+(want core1 conftest1 conftest2)
+(have core1.X conftest1.3)
+---
+(want core1 conftest2 conftest1)
+(have core1.X conftest1.3)
+---
+
+# two obviously named capabilities
+(want core1 conftest1 conftest1.acceptable conftest1.unacceptable)
+(have core1.X conftest1.3 conftest1.acceptable)
+---
+
+# capability cannot be accepted without its module
+(want core1 conftest1.acceptable conftest1.unacceptable)
+(nope)
+---
+
+# cannot agree to a capability before having agreed to the module
+(want core1 conftest1.acceptable conftest1.unacceptable conftest1)
+(nope)
+---
+(want core1)
+(have core1.X)
+(want conftest1.acceptable conftest1.unacceptable conftest1)
+(nope)
+---
+
+# everything must be barewords in `want` and `have` messages
+("want" core1)
+(nope)
+---
+(want "core1")
+(nope)
+---
+(want core1)
+(have core1.X)
+("want" conftest1)
+(nope)
+---
+(want core1)
+(have core1.X)
+(want "conftest1")
+(nope)
+---
+(want core1 (w t f))
+(nope)
+---
+(want core1)
+(have core1.X)
+(want ("wtf") conftest1)
+(nope)
+---
+
+# when the client asks about the same thing multiple times, the server must
+# reply consistently (i.e. either always agree or always deny)
+(want core1)
+(have core1.X)
+(want conftest1 conftest1.acceptable conftest1.unacceptable)
+(have conftest1.3 conftest1.acceptable)
+(want conftest2 conftest1 conftest1.acceptable conftest1.unacceptable)
+(have conftest1.3 conftest1.acceptable)
+---
